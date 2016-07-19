@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+#welcome {
+	background:#DE1850;
+	width:99%;
+	height:26px;
+	top:0;
+	left:0;
+	z-index: 100;
+	opacity:0.90;
+	float:right;
+	padding:15px 10px 20px 15px;
+	font-family: Comic Sans MS;
+}
+
+#secondpagetoppart {
+	font-family: Times New Roman;
+	font-size:135%;
+	float:left;
+}

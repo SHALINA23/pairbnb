@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  destination: MyString
+  start_date: MyString
+  end_date: MyString
+  type_of_property: MyString
+  title: MyString
+  no_of_guest: MyString
+  no_of_bedrooms: MyString
+  no_of_beds: MyString
+  no_of_bathrooms: MyString
+  description_of_property: MyString
+
+two:
+  user_id: MyString
+  destination: MyString
+  start_date: MyString
+  end_date: MyString
+  type_of_property: MyString
+  title: MyString
+  no_of_guest: MyString
+  no_of_bedrooms: MyString
+  no_of_beds: MyString
+  no_of_bathrooms: MyString
+  description_of_property: MyString

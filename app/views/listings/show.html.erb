@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @listing.user_id %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @listing.destination %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @listing.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @listing.end_date %>
+</p>
+
+<p>
+  <strong>Type of property:</strong>
+  <%= @listing.type_of_property %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @listing.title %>
+</p>
+
+<p>
+  <strong>No of guest:</strong>
+  <%= @listing.no_of_guest %>
+</p>
+
+<p>
+  <strong>No of bedrooms:</strong>
+  <%= @listing.no_of_bedrooms %>
+</p>
+
+<p>
+  <strong>No of beds:</strong>
+  <%= @listing.no_of_beds %>
+</p>
+
+<p>
+  <strong>No of bathrooms:</strong>
+  <%= @listing.no_of_bathrooms %>
+</p>
+
+<p>
+  <strong>Description of property:</strong>
+  <%= @listing.description_of_property %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>
