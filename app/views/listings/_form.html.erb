@@ -1,0 +1,61 @@
+<%= form_for(@listing) do |f| %>
+  <% if @listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@listing.errors.count, "error") %> prohibited this listing from being saved:</h2>
+
+      <ul>
+      <% @listing.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :destination %><br>
+    <%= f.text_field :destination %>
+  </div>
+  <div class="field">
+    <%= f.label :start_date %><br>
+    <%= f.text_field :start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :end_date %><br>
+    <%= f.text_field :end_date %>
+  </div>
+  <div class="field">
+    <%= f.label :type_of_property %><br>
+    <%= f.text_field :type_of_property %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :no_of_guest %><br>
+    <%= f.text_field :no_of_guest %>
+  </div>
+  <div class="field">
+    <%= f.label :no_of_bedrooms %><br>
+    <%= f.text_field :no_of_bedrooms %>
+  </div>
+  <div class="field">
+    <%= f.label :no_of_beds %><br>
+    <%= f.text_field :no_of_beds %>
+  </div>
+  <div class="field">
+    <%= f.label :no_of_bathrooms %><br>
+    <%= f.text_field :no_of_bathrooms %>
+  </div>
+  <div class="field">
+    <%= f.label :description_of_property %><br>
+    <%= f.text_field :description_of_property %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
